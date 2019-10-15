@@ -1,0 +1,6 @@
+LIBRARY COMInjectTarget.dll
+EXPORTS
+    DllCanUnloadNow     @1 PRIVATE
+    DllRegisterServer   @2 PRIVATE
+    DllUnregisterServer @3 PRIVATE
+	DllGetClassObject   @4 PRIVATE

@@ -1,0 +1,6 @@
+LIBRARY HijackDLL-Threads
+EXPORTS
+DllCanUnloadNow 
+DllGetClassObject 
+DllRegisterServer 
+DllUnregisterServer 
